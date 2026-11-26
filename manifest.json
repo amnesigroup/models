@@ -1,0 +1,167 @@
+{
+  "manifest_version": 1,
+  "models": [
+    {
+      "id": "qwen3.5-4b-4bit",
+      "name": "Qwen3.5 4B",
+      "purpose": "Writes up notes and refines their tags on this Mac. Fast, and fits most Macs.",
+      "engine": "mlx",
+      "model_type": "qwen3_5",
+      "version": "32f3e8ecf65426fc3306969496342d504bfa13f3",
+      "source": "https://huggingface.co/mlx-community/Qwen3.5-4B-MLX-4bit/resolve/32f3e8ecf65426fc3306969496342d504bfa13f3/",
+      "requires": {"macos": 14, "memory_gb": 8, "apple_silicon": true},
+      "input_budget_tokens": 8192,
+      "download_bytes": 3054404243,
+      "installed_bytes": 3054404243,
+      "default": true,
+      "files": [
+        {"path": "config.json", "sha256": "f3efc81b2ea8d96a45301037d3ccccbcccdef44a961845c87f286aaddbc6eaaa", "bytes": 3366},
+        {"path": "tokenizer_config.json", "sha256": "e98f1901ac6f0adff67b1d540bfa0c36ac1a0cf59eb72ed78146ef89aafa1182", "bytes": 1139},
+        {"path": "chat_template.jinja", "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715", "bytes": 7756},
+        {"path": "tokenizer.json", "sha256": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4", "bytes": 19989343},
+        {"path": "model.safetensors.index.json", "sha256": "52e534c41f7b97708329c85f762e5882bf48bd5955a422c6ae74eba321e6048a", "bytes": 101944},
+        {"path": "model.safetensors", "sha256": "5fb9acd0246866381cf8c5c354c6db1019f6498eec4ccb4f5edcc71ffeacb2db", "bytes": 3034300695}
+      ]
+    },
+    {
+      "id": "gemma-4-e4b-4bit",
+      "name": "Gemma 4 E4B",
+      "purpose": "Writes up notes and refines their tags on this Mac. Compact Gemma 4 model for 8 GB Macs.",
+      "engine": "mlx",
+      "model_type": "gemma4",
+      "version": "475b9088d29754a3379866cf5aeb6b41acd313c2",
+      "source": "https://huggingface.co/mlx-community/gemma-4-e4b-it-4bit/resolve/475b9088d29754a3379866cf5aeb6b41acd313c2/",
+      "requires": {"macos": 14, "memory_gb": 8, "apple_silicon": true},
+      "input_budget_tokens": 8192,
+      "download_bytes": 5179238033,
+      "installed_bytes": 5179238033,
+      "files": [
+        {"path": "config.json", "sha256": "780ccb3a514a5f1ced161d383f948fc22eca9b84b752ca19494f625bd9bad7a6", "bytes": 6628},
+        {"path": "generation_config.json", "sha256": "d4226bbe3117d2d253ba4609720ba82c6c4ce4627a9a6ae05387c78983ac03de", "bytes": 208},
+        {"path": "tokenizer_config.json", "sha256": "080d9e1aff284e2f6043889cd05367966f7c7b80e025fbc0b06745e218158656", "bytes": 2740},
+        {"path": "chat_template.jinja", "sha256": "2f1b4d75d067bae3fe44e676721c7f077d243bc007156cb9c2f8b5836613d082", "bytes": 17336},
+        {"path": "tokenizer.json", "sha256": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f", "bytes": 32169626},
+        {"path": "model.safetensors.index.json", "sha256": "f8accac59ee7efe87e0c298c854610b262c3cadd477407503147c71209ff0093", "bytes": 240961},
+        {"path": "model.safetensors", "sha256": "932b8271fc3fe65adcc78b96c10c6268bbfb13e8f67d1358727c0d6ee97e1eff", "bytes": 5146800534}
+      ]
+    },
+    {
+      "id": "qwen3.5-9b-4bit",
+      "name": "Qwen3.5 9B",
+      "purpose": "Writes up notes and refines their tags on this Mac. Mid-size Qwen model for 16 GB Macs.",
+      "engine": "mlx",
+      "model_type": "qwen3_5",
+      "version": "938d8919941c6e7efd3c7150eff7fe9d12afa631",
+      "source": "https://huggingface.co/mlx-community/Qwen3.5-9B-MLX-4bit/resolve/938d8919941c6e7efd3c7150eff7fe9d12afa631/",
+      "requires": {"macos": 14, "memory_gb": 16, "apple_silicon": true},
+      "input_budget_tokens": 16384,
+      "download_bytes": 5970346233,
+      "installed_bytes": 5970346233,
+      "files": [
+        {"path": "config.json", "sha256": "a96942cb6a8a1d3f1d17514d81a1925d04362a6a3233b389d13012211baaa9f8", "bytes": 3331},
+        {"path": "tokenizer_config.json", "sha256": "e98f1901ac6f0adff67b1d540bfa0c36ac1a0cf59eb72ed78146ef89aafa1182", "bytes": 1139},
+        {"path": "chat_template.jinja", "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715", "bytes": 7756},
+        {"path": "tokenizer.json", "sha256": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4", "bytes": 19989343},
+        {"path": "model.safetensors.index.json", "sha256": "dd023913fb87cfdae27fb11dcf695117c925833796ccac3c64117d6652d8ff1e", "bytes": 123592},
+        {"path": "model-00001-of-00002.safetensors", "sha256": "a68b87558c6ef43f74c2bd63ce7e9092ceddc3101f3def0030774bae5f42aadd", "bytes": 5349771222},
+        {"path": "model-00002-of-00002.safetensors", "sha256": "b0a770bf8469c7f3f18756a0e0283f1c1174344a83e059a4e483f6af4907352d", "bytes": 600449850}
+      ]
+    },
+    {
+      "id": "gemma-4-12b-4bit",
+      "name": "Gemma 4 12B",
+      "purpose": "Writes up notes and refines their tags on this Mac. Mid-size Gemma 4 model for 16 GB Macs.",
+      "engine": "mlx",
+      "model_type": "gemma4_unified",
+      "version": "73bcf09092aa277861d5a191b989b666f7f32e8f",
+      "source": "https://huggingface.co/mlx-community/gemma-4-12B-it-4bit/resolve/73bcf09092aa277861d5a191b989b666f7f32e8f/",
+      "requires": {"macos": 14, "memory_gb": 16, "apple_silicon": true},
+      "input_budget_tokens": 16384,
+      "download_bytes": 6773370326,
+      "installed_bytes": 6773370326,
+      "files": [
+        {"path": "config.json", "sha256": "fbc1c1cb48ed86ec98482b2d41f5a03d3991aba74b7c29a93d430761e6518a38", "bytes": 5415},
+        {"path": "generation_config.json", "sha256": "a8349d9bd64cc5841297fcb5002f0fdc4749c473c8f1b10ea337f9ce4ee7014e", "bytes": 260},
+        {"path": "tokenizer_config.json", "sha256": "fc1384a911d2c9860ac07bc3ceafff20bff26695991744b7dbe5e1e4522bfa57", "bytes": 2719},
+        {"path": "chat_template.jinja", "sha256": "36e3a42e5cf14cd0020e72d92e1fdd9970f59b82170e421f0cbe1bb42bead3f0", "bytes": 17466},
+        {"path": "tokenizer.json", "sha256": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f", "bytes": 32169626},
+        {"path": "model.safetensors.index.json", "sha256": "9ac99e7a6cf3e4d40eb8df01644fe9c04036ace94f3389df35db9d9449758516", "bytes": 135329},
+        {"path": "model-00001-of-00002.safetensors", "sha256": "0d58feed0c98a69c07317b4481aeae5ab2785f12a496ea96ab24c4842808de78", "bytes": 5351756584},
+        {"path": "model-00002-of-00002.safetensors", "sha256": "5b00a1bcb596ce6e827b4cdea6ecf2a0f35bb01306eb87c1ea4b3bcde36c7755", "bytes": 1389282927}
+      ]
+    },
+    {
+      "id": "gemma-4-26b-a4b-4bit",
+      "name": "Gemma 4 26B A4B",
+      "purpose": "Writes up notes and refines their tags on this Mac. Fast mixture-of-experts model for 32 GB Macs.",
+      "engine": "mlx",
+      "model_type": "gemma4",
+      "version": "0d77464eeb233a2da68ebf9d7dc4edaac7db956d",
+      "source": "https://huggingface.co/mlx-community/gemma-4-26b-a4b-it-4bit/resolve/0d77464eeb233a2da68ebf9d7dc4edaac7db956d/",
+      "requires": {"macos": 14, "memory_gb": 32, "apple_silicon": true},
+      "input_budget_tokens": 16384,
+      "download_bytes": 15373584936,
+      "installed_bytes": 15373584936,
+      "files": [
+        {"path": "config.json", "sha256": "419e13a27ec359654c1ce7dd06d1a87149fd07d0c8af9f770494185e62e1b2ba", "bytes": 12180},
+        {"path": "generation_config.json", "sha256": "d4226bbe3117d2d253ba4609720ba82c6c4ce4627a9a6ae05387c78983ac03de", "bytes": 208},
+        {"path": "tokenizer_config.json", "sha256": "080d9e1aff284e2f6043889cd05367966f7c7b80e025fbc0b06745e218158656", "bytes": 2740},
+        {"path": "chat_template.jinja", "sha256": "36e3a42e5cf14cd0020e72d92e1fdd9970f59b82170e421f0cbe1bb42bead3f0", "bytes": 17466},
+        {"path": "tokenizer.json", "sha256": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f", "bytes": 32169626},
+        {"path": "model.safetensors.index.json", "sha256": "bf198c9f5ea6462addca1966e5dd669c407537a876e82cf06db9084c5c850b13", "bytes": 176940},
+        {"path": "model-00001-of-00003.safetensors", "sha256": "683f420ee09550b8027bf0335c4202e196b37eb520b60a4bcbe8690b9e388c07", "bytes": 5320218487},
+        {"path": "model-00002-of-00003.safetensors", "sha256": "feab2873c2976fb7ed666f8462549564a29409364388e0c8f6b015729d165e15", "bytes": 5363328422},
+        {"path": "model-00003-of-00003.safetensors", "sha256": "bc607486deb1de5bc7e459932fda5c776a4f816b368feaa661bab8cfbb47e567", "bytes": 4657658867}
+      ]
+    },
+    {
+      "id": "qwen3.8-27b-4bit",
+      "name": "Qwen3.8 27B",
+      "purpose": "Writes up notes and refines their tags on this Mac. Large dense model for 32 GB Macs.",
+      "engine": "mlx",
+      "model_type": "qwen3_5",
+      "version": "b935172e4bb5dcd0543774a34748fb92422e3027",
+      "source": "https://huggingface.co/mlx-community/Qwen3.8-27B-4bit/resolve/b935172e4bb5dcd0543774a34748fb92422e3027/",
+      "requires": {"macos": 14, "memory_gb": 32, "apple_silicon": true},
+      "input_budget_tokens": 16384,
+      "download_bytes": 16067584201,
+      "installed_bytes": 16067584201,
+      "files": [
+        {"path": "config.json", "sha256": "14b65a0ee06517060a6bbd979bb1a8ff54e7b304b1a1f01d54344b88b8285e85", "bytes": 4932},
+        {"path": "generation_config.json", "sha256": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e", "bytes": 202},
+        {"path": "tokenizer_config.json", "sha256": "792fa3f0cb88b111e54ef3134c873531008c4df471d108da17903426e308aa7b", "bytes": 1165},
+        {"path": "chat_template.jinja", "sha256": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041", "bytes": 8952},
+        {"path": "tokenizer.json", "sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3", "bytes": 12809320},
+        {"path": "model.safetensors.index.json", "sha256": "13b840162b4cb35c66fef7df072f7dbb4717908204364f5e5d9f9655a2758fa8", "bytes": 218281},
+        {"path": "model-00001-of-00003.safetensors", "sha256": "6cc1508e96fb5d0865dfd5753a79f4ec60651bf3e2a82844a7e8ae9c60528c0d", "bytes": 5343268662},
+        {"path": "model-00002-of-00003.safetensors", "sha256": "83f2a20ca8058f486a3634a27faf99587f4cd3c156a83dee34fb99e6ac178670", "bytes": 5354185130},
+        {"path": "model-00003-of-00003.safetensors", "sha256": "31b8c91ef899f79efaaa69e3d2c096f6e2ebeb2ff20e29222abbd9ebc79e560a", "bytes": 5357087557}
+      ]
+    },
+    {
+      "id": "qwen3.6-35b-a3b-4bit",
+      "name": "Qwen3.6 35B A3B",
+      "purpose": "Writes up notes and refines their tags on this Mac. Large mixture-of-experts model for 48 GB Macs.",
+      "engine": "mlx",
+      "model_type": "qwen3_5_moe",
+      "version": "38740b847e4cb78f352aba30aa41c76e08e6eb46",
+      "source": "https://huggingface.co/mlx-community/Qwen3.6-35B-A3B-4bit/resolve/38740b847e4cb78f352aba30aa41c76e08e6eb46/",
+      "requires": {"macos": 14, "memory_gb": 48, "apple_silicon": true},
+      "input_budget_tokens": 16384,
+      "download_bytes": 20422442065,
+      "installed_bytes": 20422442065,
+      "files": [
+        {"path": "config.json", "sha256": "a822a9e48b0aafbe3144ec37d4fb067e178ed96615ce6e4420b3149893cc5767", "bytes": 23591},
+        {"path": "generation_config.json", "sha256": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e", "bytes": 202},
+        {"path": "tokenizer_config.json", "sha256": "e98f1901ac6f0adff67b1d540bfa0c36ac1a0cf59eb72ed78146ef89aafa1182", "bytes": 1139},
+        {"path": "chat_template.jinja", "sha256": "e84f32a23fdda27689f868aa4a1a5621f41133e51a48d7f3efcbea2839574259", "bytes": 7764},
+        {"path": "tokenizer.json", "sha256": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4", "bytes": 19989343},
+        {"path": "model.safetensors.index.json", "sha256": "0b28df60e33753a14e816d3b31577ae2c93884c58430a4a6de6ae9ea483842ea", "bytes": 215755},
+        {"path": "model-00001-of-00004.safetensors", "sha256": "09f3e6ecb0b7af6e6a38bc8169a134c821b0924c2679b2bb8f4426ad38d032b8", "bytes": 5288196018},
+        {"path": "model-00002-of-00004.safetensors", "sha256": "31dcdb1c49eebdb1505bd14e3cb33f9cf900bd2546b638f2464694ae763a033f", "bytes": 5368472749},
+        {"path": "model-00003-of-00004.safetensors", "sha256": "3e66de06a1f03dade16a612a368cfce4a4c9caa4efd7d28185454384082cec03", "bytes": 5368324139},
+        {"path": "model-00004-of-00004.safetensors", "sha256": "a5d0cf03519c26f8b506df6b0ba60526e5c08c8cea22d0c21ce92950e58a5422", "bytes": 4377211365}
+      ]
+    }
+  ]
+}
